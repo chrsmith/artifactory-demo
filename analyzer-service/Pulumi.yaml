@@ -1,0 +1,3 @@
+name: analyzer-service
+runtime: nodejs
+description: analyzer service

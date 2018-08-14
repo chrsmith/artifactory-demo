@@ -1,0 +1,30 @@
+{
+  "name": "video-labeler",
+  "version": "1.0.6",
+  "description": "Pulumi package for labeling frames of a video",
+  "keywords": [
+    "pulumi",
+    "video",
+    "aws",
+    "rekognition"
+  ],
+  "author": "chrsmith+npm@pulumi.com",
+  "main": "bin/index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint --project ."
+  },
+  "devDependencies": {
+    "tslint": "^5.10.0",
+    "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "@pulumi/cloud": "^0.15.0",
+    "@pulumi/cloud-aws": "^0.15.0",
+    "@pulumi/aws": "^0.15.0",
+    "aws-sdk": "^2.238.1"
+  },
+  "publishConfig": {
+    "registry": "https://pulumi.jfrog.io/pulumi/api/npm/npm/"
+  }
+}
